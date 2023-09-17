@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mayorova Categories Collection" tests="160" time="17.626">
+  <testsuite name="lecture-1 (Look description for this folder pls) / Super Admin's Actions / Create new admin" id="460abaea-17fc-4cb5-9a5b-4ffd95d4d9a5" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.309">
+    <testcase name="Status code is 200" time="0.309" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Super Admin's Actions / Create new admin (previously used email)" id="f8cf17f5-6028-4c71-8728-b7372519578c" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 400" time="0.022" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / Get list of Categories" id="b529b88b-7e45-4250-b7b7-83807ae24267" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.054">
+    <testcase name="Status code is 200" time="0.054" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds Category with invalid symbols in title" id="300e87ef-ba8a-4197-904f-b4f94b2886a6" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.064">
+    <testcase name="Status code is 400" time="0.064" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.064" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.064" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category with emty title" id="6c4c3534-0f85-4893-9d1b-57ab7ea7872b" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.020" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 3 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category with emty title.]]>
+        <![CDATA[Test description: Errors list length is 1.]]>
+        <![CDATA[Error message: expected 3 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to equal 1
+   at Object.eval sandbox-script.js:2:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category with spaces only in title" id="06c3e8f2-0069-4b9a-8882-76a0c25dd037" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category with more than allowed chars in title (101)" id="b6dbd3ce-17ec-45cc-bdc3-bf7a4793af35" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 400" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category with less than allowed chars in title (2)" id="f675303a-abde-46d5-9a1c-eef0f78338ad" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 400" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.022" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / Invalid key in body to add a category" id="54ec382c-dab9-485b-91ee-7983629d13d1" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.024">
+    <testcase name="Status code is 400" time="0.024" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.024" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category with previously used title" id="429c2f8f-3ac0-4e33-8e26-635e78d6dbd9" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.036">
+    <testcase name="Status code is 400" time="0.036" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category min title (3 chars)" id="cc73b174-5d9a-4e35-ba4e-db16fb723490" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.043">
+    <testcase name="Status code is 200" time="0.043" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.043" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.043" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / (Post-req) Delete Category Copy" id="96ccbe1b-fca6-47d5-8e21-c59d14cfe857" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Status code is 200" time="0.032" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Result text checking" time="0.032" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category max title ( 100 chars)" id="541a5c2a-3933-423e-bf2a-b17f12adcbe3" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.037">
+    <testcase name="Status code is 200" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.037" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / (Post-req) Delete Category" id="d2ed374c-5b09-4c8d-aa28-5bd0040b6359" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Status code is 200" time="0.033" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Result text checking" time="0.033" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A adds category with cirillic chars in title" id="bc8efe67-5373-486a-b556-54d24d0ab69e" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.036">
+    <testcase name="Status code is 200" time="0.036" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.036" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.036" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / (Post-req) Delete Category Copy" id="d17e321a-d69a-4c3d-a6f2-bb4e80b010f4" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Status code is 200" time="0.032" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Result text checking" time="0.032" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / Add Category standart" id="fd9ca503-aa0a-43c6-a207-1933cb2d64b5" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.081">
+    <testcase name="Status code is 200" time="0.081" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.081" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.081" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / Get category by  ID" id="85660c30-0f29-4cfd-81ad-4206d5f5756e" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / Get category by non-existent  ID" id="c79017b9-f6c8-4a90-8b99-3fdc67e35d0b" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 404" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="errors is returned" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title (standart)" id="b3e7fe2e-3119-4acd-b8a9-fb895dc7f3cb" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="4" errors="0" time="0.020">
+    <testcase name="Status code is 200" time="0.020" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title (standart).]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="id" time="0.020" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected '{&quot;errors&quot;:[{&quot;value&quot;:&quot;Some Title back-…' to include 'id'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title (standart).]]>
+        <![CDATA[Test description: id.]]>
+        <![CDATA[Error message: expected '{"errors":[{"value":"Some Title back-…' to include 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '{"errors":[{"value":"Some Title back-…' to include 'id'
+   at Object.eval sandbox-script.js:2:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="title" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to min (3 chars)" id="d81445c7-f618-4c73-bbb9-3199d7953712" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.038">
+    <testcase name="Status code is 200" time="0.038" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.038" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.038" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to max (100 chars)" id="b2d3398a-4231-4e81-a03a-b672b52219a1" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.035">
+    <testcase name="Status code is 200" time="0.035" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.035" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.035" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to empty" id="7de7416b-7baa-4de2-89f2-0a5c854b3e4f" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.018">
+    <testcase name="Status code is 400" time="0.018" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.018" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 3 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to empty.]]>
+        <![CDATA[Test description: Errors list length is 1.]]>
+        <![CDATA[Error message: expected 3 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to equal 1
+   at Object.eval sandbox-script.js:2:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.018" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to more than max allowed (101 chars)" id="0c705504-232d-48c9-8298-8cf41ce5b7a7" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 400" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to invalid characters" id="89749b28-764f-40f8-8738-8c53137bba2e" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 400" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to only spaces" id="14e9f538-a62b-4326-8461-8de528eb0a38" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.018">
+    <testcase name="Status code is 400" time="0.018" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.018" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.018" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title (ivalid format boolean)" id="77bae65c-62d8-4232-991d-a3f2031ebe24" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.018">
+    <testcase name="Status code is 400" time="0.018" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.018" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 3 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title (ivalid format boolean).]]>
+        <![CDATA[Test description: Errors list length is 1.]]>
+        <![CDATA[Error message: expected 3 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to equal 1
+   at Object.eval sandbox-script.js:2:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.018" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to previously used" id="44f3bed4-915f-4281-87b4-61c654007484" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="6" errors="0" time="0.030">
+    <testcase name="Status code is 400" time="0.030" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 500">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to previously used.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 500
+   at Object.eval sandbox-script.js:1:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Errors list length is 1" time="0.030" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 75 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to previously used.]]>
+        <![CDATA[Test description: Errors list length is 1.]]>
+        <![CDATA[Error message: expected 75 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 75 to equal 1
+   at Object.eval sandbox-script.js:2:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.030" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected undefined to equal 'Title should be unique'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A changes category title to previously used.]]>
+        <![CDATA[Test description: Error text.]]>
+        <![CDATA[Error message: expected undefined to equal 'Title should be unique'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 'Title should be unique'
+   at Object.eval sandbox-script.js:3:28).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A deletes Category" id="0caad6fc-6cc0-4adb-8a66-02fe82ca9e25" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Status code is 200" time="0.033" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Result text checking" time="0.033" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A deletes previously deleted Category" id="213e73ce-33b6-48e3-83d6-3523b094fb3a" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="2" errors="0" time="0.022">
+    <testcase name="Status code is 404" time="0.022" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 200">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A deletes previously deleted Category.]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 200
+   at Object.eval sandbox-script.js:1:30).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A deletes non-existent category" id="f8239ebe-1940-4d88-b663-43be1ed92b85" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="2" errors="0" time="0.022">
+    <testcase name="Status code is 400" time="0.022" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 200">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A deletes non-existent category.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 200
+   at Object.eval sandbox-script.js:1:31).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A gets list of teachers" id="2a763318-5fac-4025-b3f8-236270630ad8" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.119">
+    <testcase name="Status code is 200" time="0.119" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A creates a teacher" id="6a6dc9d2-cace-4754-b4a3-25e285e49928" timestamp="2023-09-17T19:25:41.523Z" tests="7" failures="0" errors="0" time="0.376">
+    <testcase name="Status code is 200" time="0.376" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id is returned" time="0.376" classname="MayorovaCategoriesCollection"/>
+    <testcase name="username is returned" time="0.376" classname="MayorovaCategoriesCollection"/>
+    <testcase name="email is returned" time="0.376" classname="MayorovaCategoriesCollection"/>
+    <testcase name="firstName is returned" time="0.376" classname="MayorovaCategoriesCollection"/>
+    <testcase name="lastName is returned" time="0.376" classname="MayorovaCategoriesCollection"/>
+    <testcase name="role is returned" time="0.376" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A deletes a teacher" id="de6aeb4f-6cc1-4f10-8950-2ec1b58008d1" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.045">
+    <testcase name="Status code is 200" time="0.045" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Admin's Actions / A creates a student" id="7064e2e4-9c60-482f-9233-89dee4b573dc" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="2" errors="0" time="0.021">
+    <testcase name="Status code is 200" time="0.021" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-1 (Look description for this folder pls) / Admin's Actions / A creates a student.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:35).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Unathorized actions / Add Category no auth" id="d10107d7-0ce3-4ff5-bed5-d93d2f2f5621" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 401" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Unathorized actions / Delete category no auth" id="a56b89ba-3e48-46f3-add2-092e5c3a9a3a" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.018">
+    <testcase name="Status code is 401" time="0.018" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Teacher's actions / Get list of Categories" id="4d94f474-878d-4396-886c-865f94ec45e2" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 200" time="0.048" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Teacher's actions / Get category by  ID" id="c6a3e9cc-f76b-4554-93b5-baa94450717f" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Teacher's actions / Change category title by teacher" id="d1f3358e-0a02-4b02-9058-9fe4c2016d99" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 403" time="0.022" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Teacher's actions / Delete Category" id="f55b801b-2d01-4900-a714-a7415c1cf187" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 403" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="forbidden" time="0.022" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Student's actions / Get a list of Categories" id="d17d29e4-dd3f-4495-8326-192243755d4c" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.070">
+    <testcase name="Status code is 200" time="0.070" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Student's actions / Get category by  ID" id="b410b34d-fb87-4680-a0f7-a9805f088590" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Student's actions / Change category title" id="771f27c3-0a14-4c2f-8e71-898d63be6fe5" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 403" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="forbidden" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-1 (Look description for this folder pls) / Student's actions / Delete Category" id="38f3caac-89bd-4b00-8763-126f32905405" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.027">
+    <testcase name="Status code is 403" time="0.027" classname="MayorovaCategoriesCollection"/>
+    <testcase name="forbidden" time="0.027" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T gets list of Categories" id="3298bafb-1ce1-4818-8125-b53f33b184d7" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 200" time="0.047" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T gets list of courses" id="f152bc78-e1c3-4bfc-8d9c-497dca117f3e" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.170">
+    <testcase name="Status code is 200" time="0.170" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T adds a course in category" id="59066f64-2e68-4dd9-ab5d-dafc6b2e16d0" timestamp="2023-09-17T19:25:41.523Z" tests="8" failures="4" errors="0" time="0.064">
+    <testcase name="Status code is 200" time="0.064" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check ID returned" time="0.064" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title returned" time="0.064" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check categoryId returned" time="0.064" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check description returned" time="0.064" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check visible returned" time="0.064" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt returned" time="0.064" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9690, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Happy path / T adds a course in category.]]>
+        <![CDATA[Test description: Check createdAt returned.]]>
+        <![CDATA[Error message: expected { id: 9690, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9690, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:7:48).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt returned" time="0.064" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9690, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Happy path / T adds a course in category.]]>
+        <![CDATA[Test description: Check updatedAt returned.]]>
+        <![CDATA[Error message: expected { id: 9690, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9690, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:48).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T gets a course by ID" id="d04a5754-f1ae-40f3-a028-48c3bc35d474" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T updates title of the course" id="62567924-76a0-4f28-8f7a-ae103b73bf0f" timestamp="2023-09-17T19:25:41.523Z" tests="8" failures="4" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check ID returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check categoryId returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check description returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check visible returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt returned" time="0.034" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9690, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Happy path / T updates title of the course.]]>
+        <![CDATA[Test description: Check createdAt returned.]]>
+        <![CDATA[Error message: expected { id: 9690, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9690, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:7:50).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt returned" time="0.034" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9690, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Happy path / T updates title of the course.]]>
+        <![CDATA[Test description: Check updatedAt returned.]]>
+        <![CDATA[Error message: expected { id: 9690, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9690, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:50).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T updates CategoryId in course" id="7ea8a7ed-d6b9-487f-ae8f-dce299b535ba" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.036">
+    <testcase name="Status code is 200" time="0.036" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T deletes a course" id="945539d4-925d-433a-92cc-4487b5d5f3d6" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.037">
+    <testcase name="Status code is 200" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.037" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T adds invisible course" id="fdeba3c6-38ba-4a41-957f-a05cc12428cc" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 200" time="0.046" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T updates course to visible" id="d7165771-ab7a-4ae9-ac74-e3193b27a00c" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.040">
+    <testcase name="Status code is 200" time="0.040" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T updates course to invisible" id="b22a1a1b-2b4e-4d85-aa2f-a3e7a7ae6a3c" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.036">
+    <testcase name="Status code is 200" time="0.036" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T gets invisible course by ID" id="449a20b8-d144-47ca-93b3-b0f7d9fe5e57" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="2" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Happy path / T gets invisible course by ID.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:56).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Happy path / T deletes invisible course" id="274d7648-4c84-4817-804a-121e251f21d4" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.034" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / BV / T adds a min title (3) course in category Copy" id="5d3b68e9-7f6d-41f2-8723-a6328d65415a" timestamp="2023-09-17T19:25:41.523Z" tests="7" failures="4" errors="0" time="0.048">
+    <testcase name="Status code is 200" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title value" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check description value" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check visible value" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id returned" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt returned" time="0.048" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9692, title: 'Раз', …(3) } to have property 'createdAt'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / BV / T adds a min title (3) course in category Copy.]]>
+        <![CDATA[Test description: Check createdAt returned.]]>
+        <![CDATA[Error message: expected { id: 9692, title: 'Раз', …(3) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9692, title: 'Раз', …(3) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:6:58).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt returned" time="0.048" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9692, title: 'Раз', …(3) } to have property 'updatedAt'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / BV / T adds a min title (3) course in category Copy.]]>
+        <![CDATA[Test description: Check updatedAt returned.]]>
+        <![CDATA[Error message: expected { id: 9692, title: 'Раз', …(3) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9692, title: 'Раз', …(3) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:7:58).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / BV / T updates max title (100) course" id="d2065599-15e0-470f-a00e-f4452d1b667f" timestamp="2023-09-17T19:25:41.523Z" tests="7" failures="4" errors="0" time="0.037">
+    <testcase name="Status code is 200" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title value" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check description value" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check visible value" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id returned" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt returned" time="0.037" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9692, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / BV / T updates max title (100) course.]]>
+        <![CDATA[Test description: Check createdAt returned.]]>
+        <![CDATA[Error message: expected { id: 9692, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9692, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:6:59).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt returned" time="0.037" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9692, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / BV / T updates max title (100) course.]]>
+        <![CDATA[Test description: Check updatedAt returned.]]>
+        <![CDATA[Error message: expected { id: 9692, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9692, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:7:59).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / BV / T updates min (3) description course" id="77125a66-4a33-4db5-850c-e7fdbcd40246" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.036">
+    <testcase name="Status code is 200" time="0.036" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Changing is displayed" time="0.036" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / BV / T updates max (500) description course Copy" id="4efdd824-0433-43cb-aad5-b6bd1c1a9fa8" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.040">
+    <testcase name="Status code is 200" time="0.040" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Changing is displayed" time="0.040" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / BV / Clean Data. T deletes a course" id="a67c8253-17b6-40e2-8dc2-55ba47a0c1a5" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.037">
+    <testcase name="Status code is 200" time="0.037" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.037" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / BV / T adds max title" id="aff1f489-387a-4bd3-b2cb-f74e222de8a9" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.078">
+    <testcase name="Status code is 200" time="0.078" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / BV / T updates min title course" id="9ba5ddc4-3bb9-4858-8b70-1449e1b51eba" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.035">
+    <testcase name="Status code is 200" time="0.035" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Changing is displayed" time="0.035" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / BV / Clean Data. T deletes a course" id="106387af-0735-48e4-a6e0-d62f2400cd06" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.034" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T gets deleted course by ID" id="2bb9d580-3e57-4bac-bd85-905e732f72a5" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Status code is 404" time="0.033" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error message checking" time="0.033" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T gets  course by non existent ID" id="9210d952-cd22-4f07-b790-5d0c0335b7c1" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.031">
+    <testcase name="Status code is 404" time="0.031" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error message checking" time="0.031" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T deletes deleted course" id="c42ff297-9b39-460a-8e5f-a83e07d57024" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Body matches string" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T deletes non existent course" id="650cd51b-227f-4bf7-9549-e177e83daade" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 400" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Body matches string" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T adds a course in non existent category" id="1bee7784-b598-4c27-ba7f-b85b90ff553e" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 400" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Body matches string" time="0.022" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T inputs less than allowed characters in course title" id="b590b5fd-d3ea-4cc0-9ee7-a87b049198ab" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error message text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T uses only spaces in course title" id="ea6cd3d0-3f2a-4976-9456-df7506388fa4" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 400" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error message text" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T uses more than allowed symbols in course title" id="881ee996-6b0e-424d-b66a-297fffa5d090" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error message text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T leaves title course  empty" id="27d979ab-5c5b-42fc-ab16-ab339e5216fb" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length" time="0.020" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 2 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Neagtive teacher's actions / T leaves title course  empty.]]>
+        <![CDATA[Test description: Errors list length.]]>
+        <![CDATA[Error message: expected 2 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2 to equal 1
+   at Object.eval sandbox-script.js:2:74).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / Null title course" id="dda34d79-3a46-408f-b241-a7a0043eb5ca" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.026">
+    <testcase name="Status code is 400" time="0.026" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.026" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 3 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Neagtive teacher's actions / Null title course.]]>
+        <![CDATA[Test description: Errors list length is 1.]]>
+        <![CDATA[Error message: expected 3 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to equal 1
+   at Object.eval sandbox-script.js:2:75).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.026" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / (Pre-req) T adds a course" id="2899239c-f255-456b-85a2-363c82fc2476" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 200" time="0.046" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates CategoryId to non existent" id="e31d3239-3e32-4d6a-9cc6-942888b10110" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / CategoryId is null" id="1b84ce54-55a4-47cb-a470-e6f675857c16" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.019">
+    <testcase name="Status code is 400" time="0.019" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.019" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 2 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Neagtive teacher's actions / CategoryId is null.]]>
+        <![CDATA[Test description: Errors list length 1.]]>
+        <![CDATA[Error message: expected 2 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2 to equal 1
+   at Object.eval sandbox-script.js:2:78).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates  title by inputting less than allowed chars" id="167a3f1d-f443-495a-ae1a-d75fe52b73e4" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 400" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates  title only spaces" id="b4e9e4c5-e3b9-4943-b852-3f4a994b04ae" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates title using more than allowed characters" id="73854e70-994b-429a-a6f2-7073f621700b" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates title to empty" id="631113e3-627a-4124-8bd1-7c8b77a4d8d1" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.020" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 2 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates title to empty.]]>
+        <![CDATA[Test description: Errors list length is 1.]]>
+        <![CDATA[Error message: expected 2 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2 to equal 1
+   at Object.eval sandbox-script.js:2:82).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates title to null" id="899b54ae-7a2c-460b-9785-fc1de7e80741" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.024">
+    <testcase name="Status code is 400" time="0.024" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.024" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 3 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates title to null.]]>
+        <![CDATA[Test description: Errors list length is 1.]]>
+        <![CDATA[Error message: expected 3 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to equal 1
+   at Object.eval sandbox-script.js:2:83).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.024" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates using non existent id" id="031e4b7a-b7a2-4336-a046-cf805a1d1f75" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.067">
+    <testcase name="Status code is 404" time="0.067" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Your test name" time="0.067" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / Null in id" id="a47dafce-9a9f-44d1-b943-6dbd0196e285" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.054">
+    <testcase name="Status code is 400" time="0.054" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates description inpitting less than allowed chars" id="86016272-5899-4c5f-87bc-a519c1c3205c" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length 1" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates description inputting more than allowed chars" id="898729d4-555a-429f-bc49-10eff634ff70" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates description by using only spaces" id="9ec1213c-afd4-4bb6-be96-36d83f77f29e" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="4" errors="0" time="0.039">
+    <testcase name="Status code is 400" time="0.039" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 200">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates description by using only spaces.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 200
+   at Object.eval sandbox-script.js:1:88).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.039" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="error_txt is not defined">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates description by using only spaces.]]>
+        <![CDATA[Test description: Error text.]]>
+        <![CDATA[Error message: error_txt is not defined.]]>
+        <![CDATA[Stacktrace: ReferenceError: error_txt is not defined
+   at Object.eval sandbox-script.js:2:88).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates description to empty" id="1a42b1fb-b381-42e1-80f7-236d322be0b8" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates description to null" id="d7dc1610-30da-4eff-ae44-c3512574f394" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.020">
+    <testcase name="Status code is 400" time="0.020" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Errors list length is 1" time="0.020" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 2 to equal 1">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: lecture-2 / Teacher's actions / Neagtive teacher's actions / T updates description to null.]]>
+        <![CDATA[Test description: Errors list length is 1.]]>
+        <![CDATA[Error message: expected 2 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2 to equal 1
+   at Object.eval sandbox-script.js:2:90).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error text" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Teacher's actions / Neagtive teacher's actions / (Post-req)T deletes a course" id="ea1e1839-2368-4815-b045-7313f94b89c9" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.083">
+    <testcase name="Status code is 200" time="0.083" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.083" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Student's Happy Path / S gets list of courses" id="d7d70756-d061-48fd-939c-6061c181dbd6" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.127">
+    <testcase name="Status code is 200" time="0.127" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Student's Happy Path / (Pre-req) T adds a course in category" id="b6a80cca-c9b4-49db-ac13-9696874f3cbc" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 200" time="0.046" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Student's Happy Path / S gets a course by ID Copy" id="0b40903f-f3fe-46f1-8798-c2fd94e608ab" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.026">
+    <testcase name="Status code is 200" time="0.026" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Student's Happy Path / (Post-req)T deletes a course" id="b60478d5-c6ae-4962-946f-9b5cf5bdc7ee" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.034" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Negative student's checks / (Pre-req) T adds invisible course" id="2000ca20-2731-41f4-8891-a43062165106" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.049">
+    <testcase name="Status code is 200" time="0.049" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Negative student's checks / S gets invisible course by ID" id="f5a8638c-491d-4053-9592-39231d77b728" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.025">
+    <testcase name="Status code is 404" time="0.025" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Negative student's checks / (Post-req)T deletes a course Copy" id="04682404-2edb-485d-b27c-aaf6ce82d24b" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.035">
+    <testcase name="Status code is 200" time="0.035" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.035" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Negative student's checks / S adds a course" id="3e4305a7-a52d-45ed-a18b-193c8a363c79" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 403" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error txt" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Negative student's checks / (Pre-req) T adds  course" id="b6994355-ae5a-434c-981c-ffe1c79fd71f" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 200" time="0.047" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Negative student's checks / S updates course" id="13a8d4ff-dde5-4d1f-be7b-27af3fe08e14" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.027">
+    <testcase name="Status code is 403" time="0.027" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Error txt" time="0.027" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Negative student's checks / S deletes a course" id="4ae41328-5716-45f9-855b-2f7870d5611f" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 403" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Student's actions / Negative student's checks / (Post-req)T deletes a course Copy 2" id="c7d9af51-3446-4255-b746-39775cd22f73" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.034" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Unauthorized actions / adding course no uth" id="9b66d0c3-b414-4b1e-9412-7394a16cbce8" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 401" time="0.020" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Unauthorized actions / getting a cours by ID no auth" id="2dfb3b1c-9bbd-45b8-abd4-7af722c5ab5f" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 401" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Unauthorized actions / getting list of courses no auth" id="ef598a41-f68a-4867-92d3-0e3408fc0370" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 401" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Unauthorized actions / updating course no auth" id="1ee74ad4-79f4-48e7-87bd-83b02e460fde" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 401" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="lecture-2 / Unauthorized actions / deleting a course no auth" id="3fa2dea9-00fd-4f52-9359-aed1146e8fab" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 401" time="0.019" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / Get SA token" id="a57817c9-22f6-4139-bc01-10c79e9e9a07" timestamp="2023-09-17T19:25:41.523Z" tests="0" failures="0" errors="0" time="0.303"/>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / Create new admin" id="5f83ebc5-6ad6-4c6d-8e3b-240338bd770d" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.381">
+    <testcase name="Status code is 200" time="0.381" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / Get  admin's token" id="0c5e39d6-5413-4fb9-9e7a-2cc1454f56c9" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.371">
+    <testcase name="Status code is 200" time="0.371" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check accessToken returned" time="0.371" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / A adds category" id="9e7fbabd-f5bf-4d7d-a828-bc947fb86926" timestamp="2023-09-17T19:25:41.523Z" tests="5" failures="2" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title is returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt is returned" time="0.034" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5692, title: '1694978786 plum' } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 1 Admin's actions with category / A adds category.]]>
+        <![CDATA[Test description: Check createdAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5692, title: '1694978786 plum' } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5692, title: '1694978786 plum' } to have property 'createdAt'
+   at Object.eval sandbox-script.js:4:112).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt is returned" time="0.034" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5692, title: '1694978786 plum' } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 1 Admin's actions with category / A adds category.]]>
+        <![CDATA[Test description: Check updatedAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5692, title: '1694978786 plum' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5692, title: '1694978786 plum' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:5:112).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / A gets category by ID" id="c66f1d3e-d9c5-4bbd-a7e2-ed3ff47a43f4" timestamp="2023-09-17T19:25:41.523Z" tests="4" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 200" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title is returned" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Title checking" time="0.022" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / A changes category title to min (3 chars)" id="511f5dc2-1e08-4017-be05-fef108cfd314" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.036">
+    <testcase name="Status code is 200" time="0.036" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.036" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title is returned" time="0.036" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / (Post-req) To check changes. A gets category by ID" id="1d46b448-75b7-4d7c-ac48-c1c99ad2eee2" timestamp="2023-09-17T19:25:41.523Z" tests="4" failures="0" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title is returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Title checking" time="0.034" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / A deletes category" id="b10240d5-d51e-4d03-a0a5-7b50c88d4361" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Status code is 200" time="0.032" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Result text checking" time="0.032" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 1 Admin's actions with category / (Post-req) Check that category was deleted. A gets category by ID" id="10d99e1a-1a31-4445-9050-086866ac83c7" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.025">
+    <testcase name="Status code is 404" time="0.025" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / Get SA token" id="c66ee8d3-c0e9-48a4-82a6-328f338a61d3" timestamp="2023-09-17T19:25:41.523Z" tests="0" failures="0" errors="0" time="0.260"/>
+  <testsuite name="Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / Create new admin" id="5065f193-f411-456c-ba9e-d9213d5696c7" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.382">
+    <testcase name="Status code is 200" time="0.382" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / Get  admin's token" id="4f8ae631-347f-42c9-b124-80fa5270cd49" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.370">
+    <testcase name="Status code is 200" time="0.370" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check accessToken returned" time="0.370" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / A creates a teacher" id="a6e8f21c-5e11-4979-9c52-4a2397b1ebd4" timestamp="2023-09-17T19:25:41.523Z" tests="9" failures="2" errors="0" time="0.364">
+    <testcase name="Status code is 200" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="username is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="email is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="firstName is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="lastName is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="role is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt is returned" time="0.364" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5593, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / A creates a teacher.]]>
+        <![CDATA[Test description: Check createdAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5593, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5593, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:8:121).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt is returned" time="0.364" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5593, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / A creates a teacher.]]>
+        <![CDATA[Test description: Check updatedAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5593, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5593, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:9:121).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / (Post-req) A gets list of teachers to check that T was added" id="854cd281-54eb-4094-8127-a7ebb2592a6e" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.073">
+    <testcase name="Status code is 200" time="0.073" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check teacher_ID was added" time="0.073" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / A deletes a teacher" id="0b3b3f4f-f654-4d99-92a0-3118293a1e20" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.036">
+    <testcase name="Status code is 200" time="0.036" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Your test name" time="0.036" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 2 Admin's actions with teacher / (Post-req) A gets list of teachers to check that T was deleted" id="8a211d3f-2d09-4367-91d6-5a2204d783f5" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.042">
+    <testcase name="Status code is 200" time="0.042" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check teacher was deleted" time="0.042" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / Get SA token" id="56af78ec-6d36-475f-8202-7c27f7229169" timestamp="2023-09-17T19:25:41.523Z" tests="0" failures="0" errors="0" time="0.295"/>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / Create new admin" id="ad4883c5-98cc-41cf-93b6-1a8596d0f8eb" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.392">
+    <testcase name="Status code is 200" time="0.392" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / Get  admin's token" id="f8eb5d25-2016-43d8-a369-be60edf2633d" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.369">
+    <testcase name="Status code is 200" time="0.369" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check accessToken returned" time="0.369" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / A creates a teacher" id="dee4b81d-c426-4cdb-af71-7b21f61aa903" timestamp="2023-09-17T19:25:41.523Z" tests="9" failures="2" errors="0" time="0.364">
+    <testcase name="Status code is 200" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check username is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check email is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check firstName is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check lastName is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check role is returned" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt is returned" time="0.364" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5595, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 3 Teacher's actions with course / A creates a teacher.]]>
+        <![CDATA[Test description: Check createdAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5595, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5595, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:8:128).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt is returned" time="0.364" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5595, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 3 Teacher's actions with course / A creates a teacher.]]>
+        <![CDATA[Test description: Check updatedAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5595, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5595, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:9:128).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / A adds category" id="918e0124-2a63-4679-b4b5-c128b25dd119" timestamp="2023-09-17T19:25:41.523Z" tests="5" failures="2" errors="0" time="0.033">
+    <testcase name="Status code is 200" time="0.033" classname="MayorovaCategoriesCollection"/>
+    <testcase name="id" time="0.033" classname="MayorovaCategoriesCollection"/>
+    <testcase name="title" time="0.033" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt is returned" time="0.033" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5693, title: '1694978790 412' } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 3 Teacher's actions with course / A adds category.]]>
+        <![CDATA[Test description: Check createdAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5693, title: '1694978790 412' } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5693, title: '1694978790 412' } to have property 'createdAt'
+   at Object.eval sandbox-script.js:4:129).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt is returned" time="0.033" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5693, title: '1694978790 412' } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 3 Teacher's actions with course / A adds category.]]>
+        <![CDATA[Test description: Check updatedAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5693, title: '1694978790 412' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5693, title: '1694978790 412' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:5:129).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / Get teacher's token" id="8775588b-6bf5-449a-b4c9-0aa2c54b25a3" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.349">
+    <testcase name="Status code is 200" time="0.349" classname="MayorovaCategoriesCollection"/>
+    <testcase name="accessToken" time="0.349" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / T adds a course in category" id="beaa6a5c-5bcb-4aa6-b6ef-f290cefeb8d4" timestamp="2023-09-17T19:25:41.523Z" tests="8" failures="2" errors="0" time="0.058">
+    <testcase name="Status code is 200" time="0.058" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check ID returned" time="0.058" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title returned" time="0.058" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check categoryId returned" time="0.058" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check description returned" time="0.058" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check visible returned" time="0.058" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt returned" time="0.058" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9698, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 3 Teacher's actions with course / T adds a course in category.]]>
+        <![CDATA[Test description: Check createdAt returned.]]>
+        <![CDATA[Error message: expected { id: 9698, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9698, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:7:131).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt returned" time="0.058" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9698, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 3 Teacher's actions with course / T adds a course in category.]]>
+        <![CDATA[Test description: Check updatedAt returned.]]>
+        <![CDATA[Error message: expected { id: 9698, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9698, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:131).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / (Post-req)To check adding a course T gets a course by ID" id="299256d3-c728-491a-aaae-6482f48e4dc5" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.025">
+    <testcase name="Status code is 200" time="0.025" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / T updates course" id="6c977543-f269-4280-8ac4-ec343ac0ec3e" timestamp="2023-09-17T19:25:41.523Z" tests="8" failures="2" errors="0" time="0.048">
+    <testcase name="Status code is 200" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check ID returned" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title returned" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check categoryId returned" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check description returned" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check visible returned" time="0.048" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt returned" time="0.048" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9698, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 3 Teacher's actions with course / T updates course.]]>
+        <![CDATA[Test description: Check createdAt returned.]]>
+        <![CDATA[Error message: expected { id: 9698, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9698, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:7:133).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt returned" time="0.048" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9698, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 3 Teacher's actions with course / T updates course.]]>
+        <![CDATA[Test description: Check updatedAt returned.]]>
+        <![CDATA[Error message: expected { id: 9698, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9698, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:133).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / (Post-req)To check updates T gets a course by ID" id="a4b0e7a9-3780-4578-bfcc-883d671b87a6" timestamp="2023-09-17T19:25:41.523Z" tests="5" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 200" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Title checking" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Description checking" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Visible checking" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="CategoryId checking" time="0.022" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / T deletes a course" id="d8cd6b9e-cf24-4918-8b9f-40fb7d8b9ffe" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.036">
+    <testcase name="Status code is 200" time="0.036" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Response checking" time="0.036" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / (Post-req)To check that course was deleted T gets a course by ID" id="9e2af244-35a8-4dbd-8323-a9c3b5c1ddb8" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.021">
+    <testcase name="Status code is 404" time="0.021" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 3 Teacher's actions with course / Clean data. A deletes a teacher and category" id="b45edac8-013b-4c79-afd8-c3398d77bfad" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Status code is 200" time="0.032" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Your test name" time="0.032" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / Get SA token" id="cd58bd28-b3d9-46d9-9e19-94984ddd6313" timestamp="2023-09-17T19:25:41.523Z" tests="0" failures="0" errors="0" time="0.297"/>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / Create new admin" id="224a3381-87be-4349-a0ac-07b5e54f5dca" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.378">
+    <testcase name="Status code is 200" time="0.378" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / Get  admin's token" id="35409d7f-2a06-4f40-9f01-f3dcbefa65e0" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.314">
+    <testcase name="Status code is 200" time="0.314" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check accessToken returned" time="0.314" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A creates a teacher" id="f451df61-48f9-46fb-a102-cb13481290a3" timestamp="2023-09-17T19:25:41.523Z" tests="9" failures="2" errors="0" time="0.350">
+    <testcase name="Status code is 200" time="0.350" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.350" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check username is returned" time="0.350" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check email is returned" time="0.350" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check firstName is returned" time="0.350" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check lastName is returned" time="0.350" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check role is returned" time="0.350" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt is returned" time="0.350" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5597, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A creates a teacher.]]>
+        <![CDATA[Test description: Check createdAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5597, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5597, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:8:141).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt is returned" time="0.350" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5597, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A creates a teacher.]]>
+        <![CDATA[Test description: Check updatedAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5597, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5597, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:9:141).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / Get teacher's token" id="48e1bbb6-3527-48f6-8437-e1f0ff784613" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.364">
+    <testcase name="Status code is 200" time="0.364" classname="MayorovaCategoriesCollection"/>
+    <testcase name="accessToken" time="0.364" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A adds category" id="a28e69d9-3e73-4b54-bc6f-51863765119f" timestamp="2023-09-17T19:25:41.523Z" tests="5" failures="2" errors="0" time="0.034">
+    <testcase name="Status code is 200" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title is returned" time="0.034" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt is returned" time="0.034" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5694, title: '1694978792 542' } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A adds category.]]>
+        <![CDATA[Test description: Check createdAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5694, title: '1694978792 542' } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5694, title: '1694978792 542' } to have property 'createdAt'
+   at Object.eval sandbox-script.js:4:143).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt is returned" time="0.034" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5694, title: '1694978792 542' } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A adds category.]]>
+        <![CDATA[Test description: Check updatedAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5694, title: '1694978792 542' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5694, title: '1694978792 542' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:5:143).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / T adds a course in category" id="70be6288-533b-4285-8f9a-3cdb2f36d480" timestamp="2023-09-17T19:25:41.523Z" tests="8" failures="2" errors="0" time="0.061">
+    <testcase name="Status code is 200" time="0.061" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check ID returned" time="0.061" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check title returned" time="0.061" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check categoryId returned" time="0.061" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check description returned" time="0.061" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check visible returned" time="0.061" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt returned" time="0.061" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9699, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / T adds a course in category.]]>
+        <![CDATA[Test description: Check createdAt returned.]]>
+        <![CDATA[Error message: expected { id: 9699, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9699, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:7:144).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt returned" time="0.061" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 9699, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / T adds a course in category.]]>
+        <![CDATA[Test description: Check updatedAt returned.]]>
+        <![CDATA[Error message: expected { id: 9699, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9699, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:144).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A creates a student" id="e50b86be-ec4b-409f-a26d-fb23e018a5c0" timestamp="2023-09-17T19:25:41.523Z" tests="9" failures="2" errors="0" time="0.346">
+    <testcase name="Status code is 200" time="0.346" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.346" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check username is returned" time="0.346" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check email is returned" time="0.346" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check firstName is returned" time="0.346" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check lastName is returned" time="0.346" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check role is returned" time="0.346" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt is returned" time="0.346" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5598, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A creates a student.]]>
+        <![CDATA[Test description: Check createdAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5598, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5598, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:8:145).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt is returned" time="0.346" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5598, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / A creates a student.]]>
+        <![CDATA[Test description: Check updatedAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5598, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5598, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:9:145).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / Get student's token" id="9f45dcf0-fea3-49eb-9160-3ddc50a67000" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.360">
+    <testcase name="Status code is 200" time="0.360" classname="MayorovaCategoriesCollection"/>
+    <testcase name="accessToken" time="0.360" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / S gets a course by ID" id="f490806c-4e7f-4629-bb5e-142411c2307a" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / S likes a course" id="50eb9067-b6b6-4fcd-832f-bb59f2552f6c" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.035">
+    <testcase name="Status code is 200" time="0.035" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Result message matches" time="0.035" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / S gets a course by ID" id="237966c0-afb6-4005-8be7-82580fd801b5" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.027">
+    <testcase name="Status code is 200" time="0.027" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Student liked a course" time="0.027" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / S dislikes a course" id="8e7b3088-e69c-40bd-b26d-11c4ea6c7c83" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.033">
+    <testcase name="Status code is 200" time="0.033" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Result message matches" time="0.033" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / S gets a course by ID" id="886ea175-f1b0-41b7-9b92-2cfcc9426101" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="0" errors="0" time="0.023">
+    <testcase name="Status code is 200" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Student disliked a course" time="0.023" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Student's like was deleted" time="0.023" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 4 Student likes\dislikes a course / Clean data. A deletes a teacher  and category" id="ab6e16bf-103f-41e9-ae13-0bc0ac644803" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.032">
+    <testcase name="Status code is 200" time="0.032" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Result text" time="0.032" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / Get SA token" id="c88308f9-a351-47e2-baa4-3521df79a7fd" timestamp="2023-09-17T19:25:41.523Z" tests="0" failures="0" errors="0" time="0.317"/>
+  <testsuite name="Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / Create new admin" id="cf7d5c86-e351-4885-9cda-c1c388c8a1b7" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.380">
+    <testcase name="Status code is 200" time="0.380" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / Get  admin's token" id="c47365a7-8117-482f-9391-25ca83fb6c44" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.356">
+    <testcase name="Status code is 200" time="0.356" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check accessToken returned" time="0.356" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A creates a student" id="81401cf8-c6b8-48b1-8f9c-3113db1e9ddc" timestamp="2023-09-17T19:25:41.523Z" tests="9" failures="2" errors="0" time="0.315">
+    <testcase name="Status code is 200" time="0.315" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check id is returned" time="0.315" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check username is returned" time="0.315" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check email is returned" time="0.315" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check firstName is returned" time="0.315" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check lastName is returned" time="0.315" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check role is returned" time="0.315" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check createdAt is returned" time="0.315" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5600, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A creates a student.]]>
+        <![CDATA[Test description: Check createdAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5600, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5600, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:8:156).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check updatedAt is returned" time="0.315" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected { id: 5600, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A creates a student.]]>
+        <![CDATA[Test description: Check updatedAt is returned.]]>
+        <![CDATA[Error message: expected { id: 5600, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 5600, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:9:156).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A banns user" id="5480a346-be57-4ee1-8371-6c07e9c28b8d" timestamp="2023-09-17T19:25:41.523Z" tests="1" failures="0" errors="0" time="0.040">
+    <testcase name="Status code is 200" time="0.040" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A gets list of banned users" id="e9166f07-a8a5-4386-b489-32dff0331562" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.035">
+    <testcase name="Status code is 200" time="0.035" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check user was banned" time="0.035" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A unbanns user" id="352ce784-a2e5-4f81-9ffb-35ab6d43cd0f" timestamp="2023-09-17T19:25:41.523Z" tests="3" failures="2" errors="0" time="0.033">
+    <testcase name="Status code is 200" time="0.033" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Reason txt" time="0.033" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected 'empty' to deeply equal 'test unban reason'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A unbanns user.]]>
+        <![CDATA[Test description: Reason txt.]]>
+        <![CDATA[Error message: expected 'empty' to deeply equal 'test unban reason'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'empty' to deeply equal 'test unban reason'
+   at Object.eval sandbox-script.js:2:159).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check createdBy is not empty" time="0.033" classname="MayorovaCategoriesCollection">
+      <failure type="AssertionFailure" message="expected +0 to be above +0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f6006187-b915-4e7e-ab9f-722778b671f4.]]>
+        <![CDATA[Collection name: Mayorova Categories Collection.]]>
+        <![CDATA[Request name: Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A unbanns user.]]>
+        <![CDATA[Test description: Check createdBy is not empty.]]>
+        <![CDATA[Error message: expected +0 to be above +0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected +0 to be above +0
+   at Object.eval sandbox-script.js:3:159).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-3 (look at the description pls) / 5 Admin banns\unbanns student / A gets list of banned users Copy" id="165b62fa-3431-4c8c-8703-2486aadbf8ac" timestamp="2023-09-17T19:25:41.523Z" tests="2" failures="0" errors="0" time="0.022">
+    <testcase name="Status code is 200" time="0.022" classname="MayorovaCategoriesCollection"/>
+    <testcase name="Check user was banned" time="0.022" classname="MayorovaCategoriesCollection"/>
+  </testsuite>
+</testsuites>

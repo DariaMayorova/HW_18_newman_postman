@@ -1,6 +1,7 @@
 name: Postman Collection Workflow
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -22,3 +23,29 @@ jobs:
             npm install -g newman-reporter-htmlextra
       - name: Run collection
         run: newman run HW18_Collection.postman_collection -r cli,htmlextra,junit 
+        # GH pages
+      - name: Checkout to gh-pages branch
+        if: always()
+        uses: actions/checkout@2
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Rename report
+        if: always()
+        run: |
+          cd newman
+          mv *.html index.html
+
+      - name: Copy report to gh-pages
+        if: always()
+        uses: crazy-max/ghactions-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: newman
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Deploy gh-pages branch to the website
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
